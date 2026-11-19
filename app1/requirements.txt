@@ -1,0 +1,19 @@
+# Базовый стек дипломной работы. Установка: pip install -r requirements.txt
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+matplotlib>=3.8
+scikit-learn>=1.4
+xgboost>=2.0
+lightgbm>=4.0
+shap>=0.45
+optuna>=3.5
+pyarrow>=15
+jupyterlab>=4.0
+ipykernel>=6.29
+# Для этапа 4 (ATLAS Open Data, ROOT-файлы без установки ROOT)
+uproot>=5.2
+awkward>=2.6
+mplhep>=0.3
+# Нейросети (этап 3): ставьте сборку под вашу CUDA, см. https://pytorch.org/get-started/locally/
+# torch>=2.2

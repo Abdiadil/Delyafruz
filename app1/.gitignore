@@ -1,0 +1,17 @@
+# Данные не храним в git — они скачиваются скриптом
+data/*.csv
+data/*.csv.gz
+data/*.root
+data/*.parquet
+# Результаты экспериментов
+results/*.parquet
+results/*.npy
+results/*.pkl
+results/*.json
+# Служебное
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
